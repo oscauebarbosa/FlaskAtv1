@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+header {
+    background-color: #3333337e;
+    color: #fff;
+    padding: 13px;
+    display: flex;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+}
+
+#imglogo {
+    width: 60px;
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 900px;
+    margin-top: 21px;
+    background-color: #23308100;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b3d7375;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Adicione a animação ao passar o mouse */
+.animated-button:hover {
+    background-color: #0056b3;
+}
+
+#imgaero {
+    height: 687px;
+    width: 1263px;
+}
+
+#divespaco{
+    background-color: #233081;
+    height: 10px;
+    margin-top: -11px;
+}
+
+.banner {
+    background-image: url("img/abertura\ .png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+#buttoninsc{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.container{
+    margin-top: -0.5vw;
+}
+#container2{
+    margin-top: -9vw;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    background-color: #ff000000;
+    margin-bottom: -1vw;
+}
+footer img{
+    margin-bottom: -1vw;
+
+}
+
+.info {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info li {
+    margin-bottom: 5px;
+}
+
+.info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.carousel {
+    overflow: hidden;
+    margin-top: -1vh;
+}
+.imagens{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: -29vw;
+    margin-left: 7vw;
+    gap: 10vw;
+}
+#imagens2{
+    display: grid;
+    grid-template-rows: 1fr  1fr;
+    position: absolute;
+    z-index: 2;
+    margin-top: -39vw;
+    gap: 0;
+}
+#imagens2 img{
+    width: 15vw;
+    height: 15vw;
+}
+#arruma{
+    display: flex;
+    justify-content: center;
+}
+.imagens img:hover{
+    transform: scale(1.1);
+}
+.imagens img{
+    width: 30vw;
+    height: 10vw;
+    transition: 1s;
+}
+.gap{
+    gap: 5vw;
+}
+#gap{
+    display: flex;
+    gap: 5vw;
+}
+.bola{
+    width: 15vw !important;
+    height: 15vw !important;
+}

@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .banner {
-    background-image: url("img/abertura\ .png");
+    background-image: url("/static/img/abertura\ .png");
     background-size: cover;
     height: 100vh;
     display: flex;

@@ -30,7 +30,7 @@ p {
 
 
         .ver {
-            background-image: url("img/banner\ \(2\)\ 1.png");
+            background-image: url("/static/img/banner\ \(2\)\ 1.png");
             background-repeat: no-repeat;
             background-size: cover;
             height: 400px;
